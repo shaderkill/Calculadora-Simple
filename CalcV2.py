@@ -8,7 +8,7 @@ answer_yes = ['si', 's', 'yes', 'y']
 
 def calcular():
     global input_str
-    print('\n\Operación ingresada es %s' % input_str)
+    print('\nOperación ingresada es %s' % input_str)
     exec("print('El resultado es', %s)" % input_str)
     salir()
 
